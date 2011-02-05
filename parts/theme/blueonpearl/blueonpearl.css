@@ -1,0 +1,506 @@
+@charset "utf-8";
+
+/*
+  Title: blue-on-pearl
+  Author: KAYA Satoshi
+  Access: <kayakaya@kayakaya.net>
+  License: GPL
+  Comment: 淡い黄色の背景に青文字を基調としたテーマ。日記本文は白地に黒。
+
+vlayusuke(http://vlayusuke.com)のv-greengrassを元に作成しました。
+
+Copyright 2010 (C) KAYA Satoshi <kayakaya@kayakaya.net>
+validated by W3C
+
+*/
+
+body{
+    color: #333333;
+    background-color: #FFFFF1;
+    font-family: 'ヒラギノ丸ゴ Pro W4','Hiragino Maru Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+div.adminmenu {
+    text-align: right;
+    font-size: 0.9em;
+    border: solid 1px #CCCCCC;
+    background-color: #EEEEEE;
+    padding:3px;
+    margin: 1em;
+}
+
+span.adminmenu {
+    padding: 3px;
+}
+
+a:link {
+    color: #2222AA;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #561464;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration:underline;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+div.main {
+    width: 75%;
+}
+
+h1{
+    font-family: 'ヒラギノ角ゴ Pro W4', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック';
+    text-align: left;
+    font-size: 2.5em;
+    color: #0033cc;
+    margin: 1em;
+}
+
+div.calendar {
+    font-size: 0.9em;
+    padding: 2px;
+    margin-bottom: 0.5em;
+}
+
+.headline {
+    text-align: left;
+    font-size: 0.9em;
+    padding: 2px;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+div.day {
+    background-color: #FFFFFF;
+    margin: 1.5em;
+    border: solid 1px #CCCCCC;
+    line-hight: 150%;
+}
+div.main h2 {
+    text-align: right;
+}
+div.main h2 span.date {
+    font-family: Times;
+    font-style: italic;
+    font-size: 1.2em;
+    padding: 0.5em;
+    color : #6699ff;
+    margin: 3px;
+
+}
+
+span.date{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+span.title{
+    color: #666666;
+}
+
+div.body {
+    padding: 2px;
+    padding-bottom: 1px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    font-weight: bold;
+    border-color: #CCCCCC;
+    border-width: 0em 0em 1px 0em;
+    border-style: dashed;
+}
+
+p {
+    margin:0.6em 0em 0.6em 1em;
+    line-height: 1.5em;
+}
+
+div.comment{
+    font-size: 0.9em;
+    border: solid 1px #CCCCCC;
+    background-color: #EEEEEE;
+    margin: 0.5em;
+}
+
+div.caption {
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    padding-top: 3px
+}
+
+p.commenttitle {
+}
+
+span.commentator {
+    padding: 2px;
+}
+
+div.footnote {
+    font-size: 90%;
+    color: #666666;
+    border-color: #CCCCCC;
+    border-width: 1px 0em 0em 0em;
+    border-style: dashed;
+}
+
+span.footnote {
+    font-size: 90%;
+}
+
+div.accnt {
+    margin: 1.5em;
+    font-size: 90%;
+    color: #666666;
+    text-align: left;
+}
+
+span.counter {
+    color: #3333FF;
+}
+
+div.referer {
+    text-align: right;
+    font-size: 90%;
+    padding: 2px;
+    padding-bottom: 1px;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+div.refererlist {
+    font-size: 90%;
+    padding: 2px;
+    padding-bottom: 1px;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+p.referertitle {
+}
+
+ul.referer {
+    margin-top: 0em;
+    font-size: 90%;
+}
+
+hr {
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #CCCCCC;
+}
+
+hr.sep {
+    display: none;
+}
+
+div.footer {
+    margin: 1.5em;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+div.form {
+    padding: 0.5em 1em 0.5em 1em;
+    margin-bottom: 0.5em;
+}
+
+input.field {
+    background-color: white;
+}
+
+input {
+    clear: left;
+}
+
+textarea {
+    background-color: white;
+    margin-left: 1em;
+}
+
+p.message {
+    text-align: center;
+    font-size: large;
+    background-color: red;
+    color: white;
+    padding: 8px;
+}
+
+pre {
+    background-color: #EEEEEE;
+    border-color: #CCCCCC;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 2em;
+    margin-right: 1em;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+blockquote {
+    background-color: #EEEEEE;
+    border-width: 1px;
+    border-left: 10px;
+    border-style: solid;
+    background-color: #CCCCCC;
+    margin-left: 2em;
+    margin-right: 1em;
+    padding: 5px;
+
+}
+
+dl {
+    margin-left: 2em;
+}
+
+dt {
+    margin-bottom: 0.2em;
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+em{
+    font-weight: normal;
+    font-style: normal;
+    background-color:#99CCFF;
+}
+
+strong{
+    color: black;
+    font-style: normal;
+}
+
+.hide{
+    background-color: #fffff1;
+}
+
+.sfooter {
+    margin-left: 45px;
+}
+
+p.source{
+    margin-top: 0em;
+    margin-right: 1.5em;
+    text-align: right;
+    font-size:0.8em;
+}
+
+div.day.update {
+    text-align: left;
+}
+
+form.update {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+form.update input, form.update textarea, form.commentstat input {
+    background-color: white;
+    color: black;
+}
+
+form.update span.field {
+    display: inline;
+    margin-left: 0em;
+    margin-right: 0.5em;
+}
+
+form.update div.field.title {
+    display: block;
+    margin-top: 1em;
+}
+
+form.update div.field.title input {
+    margin-left: 0.5em;
+}
+
+form.update div.textarea {
+    display: block;
+    margin-top: 1em;
+}
+
+form.update textarea {
+    display: block;
+    margin-bottom: 1em;
+    width: 35em;
+    height: 15em;
+}
+
+form.update span.checkbox.hidediary {
+    margin-left: 1em;
+}
+
+div.form form {
+    margin: 0em;
+}
+
+div.form div.caption {
+    margin: 0.5em;
+}
+
+div.form form.comment {
+}
+
+div.field {
+    display: inline;
+    margin-right: 2em;
+}
+
+form.comment input {
+    background-color: white;
+    color: black;
+    margin-left: 1em;
+}
+
+div.textarea {
+    display: block;
+    vertical-align: top;
+}
+
+form.comment textarea {
+    display: block;
+    background-color: white;
+    color: black;
+    width: 30em;
+    height: 5em;
+}
+
+div.button {
+    display: block;
+}
+
+div.sidebar {
+    position: absolute;
+    top: 4em;
+    right: 0.5em;
+    width: 25%;
+    font-size: 0.9em;
+}
+
+div.sidebar p {
+    line-height: 120%;
+
+}
+
+div.sidebar li {
+/*    margin-left: 0.5em; */
+}
+
+div.todo {
+    border: solid 2px #999999;
+    background: #eeeeee;
+    margin: 1.5em 1.5em 1.5em 1.5em;
+    padding: 4px;
+    font-size: 9pt;
+    color: #666666;
+}
+
+img {
+    border: 0px;
+}
+
+img.photo {
+    border: 1px solid #999999;
+}
+
+div.body-enter {
+    text-align: right;
+    font-size:0.9em;
+}
+
+/* desine for iPhone and other smart phones */
+@media screen and (max-device-width: 480px) {
+    div.adminmenu {
+        font-size: x-small;
+        margin: 0px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.0em;
+        text-align: center;
+        padding-top: 10px;
+        height: 20px;
+    }
+
+    div.content {
+        width: 100%;
+    }
+
+    div.main {
+        width: 100%;
+    }
+
+    div.day {
+        position: relative;
+        margin-right: 5px;
+        margin-left: 5px;
+        width: 95%;
+    }
+
+    div.day h2 {
+        background-color: transparent;
+    }
+
+    div.section h3 {
+        margin-left: 0px;
+        text-indent: 0px;
+    }
+
+    div.section img.left,
+    div.section img.right,
+    div.section img.photo {
+        display: block;
+        float: none;
+        margin: 10px auto;
+        max-width: 300px !important;
+    }
+    div.section img.flickr {
+        display: block;
+        float: none;
+        margin: 10px auto;
+        max-width: 240px !important;
+        height:auto;
+    }
+
+    div.section img.amazon {
+        max-width: 150px !important;
+    }
+
+    body.update h1 {
+        background-image: none;
+        height: auto;
+        display: block;
+        padding: 0px;
+    }
+
+    body.update div.autopagerize_page_element {
+        width: 100%;
+    }
+
+    div.update {
+        width: 100%;
+    }
+
+    textarea {
+        max-width: 240px !important;
+        font-size: 110%;
+    }
+   }
+}
+
