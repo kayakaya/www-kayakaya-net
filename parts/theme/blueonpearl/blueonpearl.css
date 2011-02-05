@@ -249,11 +249,10 @@ pre {
 }
 
 blockquote {
-    background-color: #EEEEEE;
     border-width: 1px;
     border-left: 10px;
     border-style: solid;
-    background-color: #CCCCCC;
+    background-color: #EEEEEE;
     margin-left: 2em;
     margin-right: 1em;
     padding: 5px;
@@ -498,9 +497,7 @@ div.body-enter {
     }
 
     textarea {
-        max-width: 240px !important;
         font-size: 110%;
     }
-   }
 }
 
